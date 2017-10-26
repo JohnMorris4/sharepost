@@ -1,0 +1,10 @@
+.jumbotron,.jumbotron-fluid{
+    position: relative;
+    background: url("https://static.pexels.com/photos/97077/pexels-photo-97077.jpeg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    color: #ffffff;
+    border-radius: 25px;
+}
