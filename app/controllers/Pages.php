@@ -5,8 +5,8 @@
         public function index(){
             $data = [
                 'title' => 'Home',
-                'title_2' => 'SharePosts',
-                'description' => 'Simple example of social network built on AxiomPHP framework'
+                'title_2' => 'Full Stack Web Development',
+                'description' => 'Let me create your next step to success'
                 
             ];
             

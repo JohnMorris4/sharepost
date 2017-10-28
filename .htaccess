@@ -2,4 +2,5 @@
   RewriteEngine on
   RewriteRule ^$ public/ [L]
   RewriteRule (.*) public/$1 [L]
+  AddType text/css .css
 </IfModule>
