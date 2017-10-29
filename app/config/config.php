@@ -9,6 +9,6 @@ define('APPROOT', dirname(dirname (__FILE__)));
 //Define the URL Root
 define('URLROOT', 'http://localhost/shareposts');
 //Add Site Name
-define('SITENAME', 'Morris Web Development');
+define('SITENAME', 'SharePosts');
 //App Version
 define('APPVERSION', '1.0.0');

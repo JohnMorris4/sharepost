@@ -1,12 +1,19 @@
 <?php
     class Pages extends Controller {
         public function __construct(){
+            $this->postModel = $this->model('Post');
           }
         public function index(){
+            if(isLoggedIn()){
+                redirect('/posts/index');
+            }
+
+
+
             $data = [
                 'title' => 'Home',
-                'title_2' => 'Full Stack Web Development',
-                'description' => 'Let me create your next step to success'
+                'title_2' => 'SharePost',
+                'description' => 'Project built off of AxiomPHP'
                 
             ];
             
@@ -20,5 +27,13 @@
             ];
             $this->view('pages/about', $data);
         }
+        public function posts(){
+            $data = [
+                'title' => 'Posts',
+                'description' => 'Current Posts'
+            ];
+            $this->view('posts/index', $data);
+        }
+
     }
 

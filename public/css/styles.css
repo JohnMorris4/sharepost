@@ -1,29 +1,17 @@
 .jumbotron,.jumbotron-fluid {
     position: relative;
-    background: url("https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?w=940&h=650&auto=compress&cs=tinysrgb") center center;
+    background: url("https://images.pexels.com/photos/163130/keyboard-black-notebook-input-163130.jpeg?w=940&h=650&auto=compress&cs=tinysrgb") center center;
     width: 100%;
     height: 100%;
     background-size: cover;
     overflow: hidden;
     color: #ffffff;
-    margin-bottom: 0;
+    margin-bottom:0;
     
 }
 
-.container .index {
-    margin: 0px auto 100px;
-    background-color: gray;
-    padding-top: 2em;
-}
-
-.col-sm-12 {
-    height: 100px;  
-    text-align: center;
-}
-
-
-.mb-3, .my-3 {
-    margin-bottom: 0!important;
+.fa-tachometer {
+    color: #ffffff;
 }
 
 .footer {
